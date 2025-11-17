@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div id="box">
+    <center>
+        <div>
+            <h1 id="text">0</h1>
+        </div>
+    <table>
+        <tr>
+            <td><button onclick="obtener(this)">1</button></td>
+            <td><button onclick="obtener(this)">2</button></td>
+            <td><button onclick="obtener(this)">3</button></td>
+            <td><button onclick="obtener(this)">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="obtener(this)">4</button></td>
+            <td><button onclick="obtener(this)">5</button></td>
+            <td><button onclick="obtener(this)">6</button></td>
+            <td><button onclick="obtener(this)">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="obtener(this)">7</button></td>
+            <td><button onclick="obtener(this)">8</button></td>
+            <td><button onclick="obtener(this)">9</button></td>
+            <td><button onclick="obtener(this)">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="obtener(this)">0</button></td>
+            <td><button onclick="limpiar()">c</button></td>
+            <td><button onclick="pregunta()">?</button></td>
+            <td><button onclick="obtener(this)">/</button></td>
+        </tr>
+    </table>
+    <div>
+        <table>
+            <tr>
+                <td><button id="uno" onclick="borrar()">borrar</button></td>
+                <td><button id="uno" onclick="calcular()">enviar</button></td>
+            </tr>
+        </table>
+    </div>
+    </center>
+    </div>
+<script src="file.js"></script>
+</body>
+</html>
